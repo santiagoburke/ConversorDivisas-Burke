@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conversor de Divisas</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <a href="index.html">CONVERSOR DE DIVISAS</a>
+    </div>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="#primera-s">¿Quienes somos?</a></li>
+            <li><a href="#cotizacion-actual">Cotizacion Actual</a></li>
+            <li><a href="#cotiza-ya">Convierte Ya!</a></li>
+        </ul>
+        <a href="contact.html" class="btn"><button>Contacto</button></a>
+    </nav>
+</header>
+
+<section class="primera-section" id="primera-s">
+    <div class="info">
+        <h2>¿QUE ES CONVERSOR DE DIVISAS?</h2>
+        <p>Conversor de divisas es una aplicacion 
+        para convertir pesos argentinos a todas las monedas del mercado</p>
+    </div>
+    <div class="foto-primera">
+        <img src="./img/IMAGEN PRINCIPAL.jpg" alt="imagen-primerasection">
+    </div>
+</section>
+
+<section id="cotizacion-actual">
+    <section class="segunda-section">   
+    <div class="dolar-oficial">
+        <p>DOLAR OFICIAL</p>
+        <div class="compra">
+            <p>COMPRA</p>
+            <p>$00.00</p>
+        </div>
+        <div class="venta">
+            <p>VENTA</p>
+            <p>$00.00</p>
+        </div>
+    </div>
+    <div class="dolar-blue">
+        <p>DOLAR BLUE</p>
+        <div class="compra">
+            <p>COMPRA</p>
+            <p>$00.00</p>
+        </div>
+        <div class="venta">
+            <p>VENTA</p>
+            <p>$00.00</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="tercera-section">
+    <div class="euro">
+        <p>EURO</p>
+        <div class="compra">
+            <p>COMPRA</p>
+            <p>$00.00</p>
+        </div>
+        <div class="venta">
+            <p>VENTA</p>
+            <p>$00.00</p>
+        </div>
+    </div>
+    <div class="libra-esterlina">
+        <p>LIBRA ESTERLINA</p>
+        <div class="compra">
+            <p>COMPRA</p>
+            <p>$00.00</p>
+        </div>
+        <div class="venta">
+            <p>VENTA</p>
+            <p>$00.00</p>
+        </div>
+    </div>
+    </section>
+</section>
+
+
+    <section class="cuarta-section">    
+    <div class="moneda" id="primera">
+        <p>DESDE LA DIVISA</p>
+        <select id="primera-moneda">
+        </select>
+    </div>
+    <div class="moneda" id="segunda">
+        <p>A LA DIVISA</p>
+        <select id="segunda-moneda">
+        </select>
+        
+    </div>
+    </section>
+
+    <section class="quinta-section" id="cotiza-ya">
+        <div class="cantidad">
+            <p>INGRESE LA CANTIDAD</p>
+            <input type="text" value="1">
+        </div>
+        <div>
+            <button id="convertir">Convertir</button>
+        </div>
+        <div>   
+            <p id="resultado">Resultado: $0</p>
+        </div>
+    </section>
+
+
+
+<footer class="footer" id="footer">
+    <div class="footer-logo">
+        <p>CONVERSOR DE DIVISAS</p>
+    </div>
+    <div class="footer-info">
+        <div class="footer-infoII">
+            <p>Contacto</p>
+            <p>+1 11 1111-1111</p>
+        </div>
+        <div class="footer-foto">
+            <img src="./img/bxs-phone 1.jpg" alt="imagen-telefono">
+        </div>
+    </div>
+</footer>
+
+    <script src="paises.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
